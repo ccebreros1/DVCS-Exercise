@@ -48,11 +48,20 @@
                     </button>
                     <a class="navbar-brand" runat="server" href="~/">Cesar Antonio Cebreros Lara</a>&nbsp;</div>
                 <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/">Home</a></li>
-                        <li><a runat="server" href="~/About">About</a></li>
-                        <li><a runat="server" href="~/Contact">Contact</a></li>
-                    </ul>
+                    <asp:Menu ID="SiteNav" runat="server" DataSourceID="SiteNavDataSource"
+                         Orientation="Horizontal" StaticDisplayLevels="1"
+                         StaticMenuStyle-CssClass="nav navbar-nav" 
+                         StaticSelectedStyle-CssClass="active"
+                         DynamicMenuStyle-CssClass="dropdown-menu"
+                         IncludeStyleBlock="false" EnableTheming="false" EnableViewState="false"></asp:Menu>
+                    <script>
+                        $(function () {
+                            //the code is to isolate the context for applying bootstrap styling
+                            $('#SiteNav').next().removeAttr('style');
+                        });
+                    </script>
+                    <asp:SiteMapDataSource ID="SiteNavDataSource" runat="server" 
+                        ShowStartingNode="false" />
                     <asp:LoginView runat="server" ViewStateMode="Disabled">
                         <AnonymousTemplate>
                             <ul class="nav navbar-nav navbar-right">
