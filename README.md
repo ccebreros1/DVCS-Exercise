@@ -6,6 +6,7 @@ First exercise for DVCS
 Contact Info:
 
 Cesar Antonio Cebreros Lara
+
 cesar.cebreros10@gmail.com
 
 Created in Edmonton, AB, Canada
