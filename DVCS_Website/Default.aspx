@@ -3,38 +3,38 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
-        <h1>ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-        <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+        <h1>Cesar's Webpage</h1>
+        <p class="lead">This webpage was used to explore what can be done with GitHub and DVCS. For further notes, examples, and awesome stuff press the button!</p>
+        <p><a href="http://dmit-2018.github.io/" class="btn btn-primary btn-lg">The Button &raquo;</a></p>
     </div>
 
     <div class="row">
         <div class="col-md-4">
-            <h2>Getting started</h2>
+            <h2>My GitHub Profile</h2>
             <p>
-                ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-            A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
+                GitHub is very powerful, and if you wamnt to see some of my projects over there please visit my profile. It is small, but will get bigger and richer :)
             </p>
             <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
-            </p>
-        </div>
-        <div class="col-md-4">
-            <h2>Get more libraries</h2>
-            <p>
-                NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
-            </p>
-            <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
+                <a class="btn btn-default" href="https://github.com/ccebreros1">Visit GitHub &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
-            <h2>Web Hosting</h2>
+            <h2>Learn More About Me</h2>
             <p>
-                You can easily find a web hosting company that offers the right mix of features and price for your applications.
+               Go to my about.me webpage, and take a look at my interests!
+            </p>
+            <br />
+            <p>
+                <a class="btn btn-default" href="https://about.me/cesar.cebreros">About me &raquo;</a>
+            </p>
+        </div>
+        <div class="col-md-4">
+            <h2>LinkedIn</h2>
+            <p>
+                You can also visit my LinkedIn and see my work experience, studies, and achievements. It is pretty cool stuff, and if you want to connect go ahead!
             </p>
             <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
+                <a class="btn btn-default" href="https://www.linkedin.com/in/cesar-antonio-cebreros-lara">LinkedIn &raquo;</a>
             </p>
         </div>
     </div>
