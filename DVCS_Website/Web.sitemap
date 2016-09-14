@@ -6,6 +6,7 @@
       <siteMapNode url="" title="Pages" description="">
         <siteMapNode url="~/ExamplePages/Example1.aspx" title="Image from FB"  description="" />
         <siteMapNode url="~/ExamplePages/Example2.aspx" title="Image from Google"  description="" />
+        <siteMapNode url="~/ExamplePages/Example3.aspx" title="Image from Google"  description="" />
       </siteMapNode>
       <siteMapNode url="~/About.aspx" title="About Us"  description="" />
     </siteMapNode>
