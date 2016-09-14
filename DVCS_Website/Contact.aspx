@@ -2,16 +2,15 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2><%: Title %>.</h2>
-    <h3>Your contact page.</h3>
+    <h3>Cesar Cebreros Contact Info</h3>
     <address>
-        One Microsoft Way<br />
-        Redmond, WA 98052-6399<br />
+        NAIT<br />
+        Edmonton, AB, Canada<br />
         <abbr title="Phone">P:</abbr>
-        425.555.0100
+        780.123.4567
     </address>
 
     <address>
-        <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-        <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+        <strong>Contact Me:</strong>   <a href="mailto:cesar.cebreros10@gmail.com">cesar.cebreros10@gmail.com</a><br />
     </address>
 </asp:Content>
